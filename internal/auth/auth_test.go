@@ -9,7 +9,7 @@ func TestGetAPIKey(t *testing.T) {
 	// Test case 1: No authorization header
 	headers1 := http.Header{}
 	key1, err1 := GetAPIKey(headers1)
-	if err1 != ErrNoAuthHeaderIncluded {
+	if err1 != ErNoAuthHeaderIncluded {
 		t.Errorf("Expected ErrNoAuthHeaderIncluded but got %v", err1)
 	}
 	if key1 != "" {
