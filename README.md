@@ -1,6 +1,6 @@
 ## Code Coverage
 
-![code coverage](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+![code coverage](https://github.com/Salttt/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
